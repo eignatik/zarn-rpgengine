@@ -1,0 +1,73 @@
+Mono path[0] = 'C:/SteamLibrary/steamapps/common/The RPG Engine/The_RPG_Engine_Data/Managed'
+Mono config path = 'C:/SteamLibrary/steamapps/common/The RPG Engine/MonoBleedingEdge/etc'
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path C:/SteamLibrary/steamapps/common/The RPG Engine/The_RPG_Engine_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     7989 MB
+    Driver:   32.0.15.5612
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.178 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 6.055100 ms
+UnloadTime: 2.831600 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Logger initialised - Can be toggled with (F1)
+Unloading 89 unused Assets to reduce memory usage. Loaded Objects now: 13078.
+Total: 17.547000 ms (FindLiveObjects: 0.626000 ms CreateObjectMapping: 0.163500 ms MarkObjects: 16.667400 ms  DeleteObjects: 0.089800 ms)
+
+Exception: GET T - {"errors":[{"challenge_metadata":null,"code":1,"code_name":"Unauthorized","detail":"The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.","id":"e33e9ccd-ca80-55da-abfa-441acd42e670","status":"401","title":"Unauthorized"}]}
+  at RpgEngine.HttpClientExtensions.GetAsync[T] (System.Net.Http.HttpClient httpClient, System.String url, System.Net.Http.Headers.AuthenticationHeaderValue authenticationHeader, System.Threading.CancellationToken cancellationToken) [0x0014e] in <46df2c74f8cf4cbd9448e86f01ec7fd1>:0 
+  at RpgEngine.Patreon.PatreonAuth.GetIdentityAsync (System.Threading.CancellationToken cancellationToken) [0x000eb] in <46df2c74f8cf4cbd9448e86f01ec7fd1>:0 
+  at RpgEngine.Patreon.PatreonClient.CheckIsPatreonSupporterAsync () [0x00124] in <46df2c74f8cf4cbd9448e86f01ec7fd1>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+RpgEngine.Patreon.<CheckIsPatreonSupporterAsync>d__25:MoveNext()
+System.Runtime.CompilerServices.MoveNextRunner:InvokeMoveNext(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction(Object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task:FinishStageThree()
+System.Threading.Tasks.Task:FinishStageTwo()
+System.Threading.Tasks.Task:Finish(Boolean)
+System.Threading.Tasks.Task:TrySetException(Object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetException(Exception)
+RpgEngine.Patreon.<GetIdentityAsync>d__21:MoveNext()
+System.Runtime.CompilerServices.MoveNextRunner:InvokeMoveNext(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction(Object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task:FinishStageThree()
+System.Threading.Tasks.Task:FinishStageTwo()
+System.Threading.Tasks.Task:Finish(Boolean)
+System.Threading.Tasks.Task:TrySetException(Object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetException(Exception)
+RpgEngine.<GetAsync>d__0`1:MoveNext()
+System.Runtime.CompilerServices.MoveNextRunner:InvokeMoveNext(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.<>c:<.cctor>b__7_0(Object)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+UnityEngine.UnitySynchronizationContext:ExecuteTasks()
+
+Starting API
+Host: http://localhost:8001/TheRpgEngine/swagger/index.html
+Book Loaded: 1.069s

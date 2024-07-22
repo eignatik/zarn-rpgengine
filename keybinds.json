@@ -1,0 +1,224 @@
+{
+  "escape": [
+    27
+  ],
+  "save": [
+    306,
+    115
+  ],
+  "focus": [
+    102
+  ],
+  "focus_on_mouse": [
+    304,
+    102
+  ],
+  "force_all_to_my_view": [
+    306,
+    304,
+    102
+  ],
+  "move_forward": [
+    119
+  ],
+  "move_left": [
+    97
+  ],
+  "move_right": [
+    100
+  ],
+  "move_back": [
+    115
+  ],
+  "move_up": [
+    280
+  ],
+  "move_down": [
+    281
+  ],
+  "move_up_flycam": [
+    101
+  ],
+  "move_down_flycam": [
+    113
+  ],
+  "rotate_right": [
+    113
+  ],
+  "rotate_left": [
+    101
+  ],
+  "zoom_in": [
+    61
+  ],
+  "zoom_out": [
+    45
+  ],
+  "switch_camera_mode": [
+    284
+  ],
+  "auto_rotate_camera": [
+    286
+  ],
+  "toggle_camera_pivot": [
+    304,
+    112
+  ],
+  "toggle_hidden": [
+    104
+  ],
+  "upload": [
+    306,
+    304,
+    115
+  ],
+  "dev_console": [
+    282
+  ],
+  "toggle_ui": [
+    285
+  ],
+  "toggle_selection_fx": [
+    287
+  ],
+  "global_ui_scaler": [
+    292
+  ],
+  "decrease_brush_size": [
+    91
+  ],
+  "increase_brush_size": [
+    93
+  ],
+  "invert_sculpt": [
+    308
+  ],
+  "ruler_linear": [],
+  "ruler_spherical": [],
+  "ruler_navigation": [],
+  "move_entity": [
+    327
+  ],
+  "show_navmesh": [
+    306,
+    109
+  ],
+  "quick_ping": [
+    326
+  ],
+  "highlight_image": [
+    308
+  ],
+  "build_mode": [],
+  "toggle_build_mode": [
+    9
+  ],
+  "temp_build_mode": [
+    32
+  ],
+  "terrain_editor": [],
+  "map_menu": [],
+  "document_manager": [],
+  "pdf_viewer": [],
+  "web_browser": [],
+  "atmosphere_window": [],
+  "grid_settings_window": [],
+  "chat_window": [
+    13
+  ],
+  "locator_blank_mode": [
+    49
+  ],
+  "locator_move_mode": [
+    50
+  ],
+  "locator_scale_mode": [
+    51
+  ],
+  "locator_rotate_mode": [
+    52
+  ],
+  "rotate_held": [
+    306
+  ],
+  "reset_transform": [
+    114
+  ],
+  "toggle_gridsnap_all": [
+    120
+  ],
+  "toggle_gridsnap_x": [
+    306,
+    304,
+    120
+  ],
+  "toggle_gridsnap_y": [
+    306,
+    304,
+    121
+  ],
+  "toggle_gridsnap_z": [
+    306,
+    304,
+    122
+  ],
+  "delete": [
+    127
+  ],
+  "copy": [
+    306,
+    99
+  ],
+  "paste": [
+    306,
+    118
+  ],
+  "cut": [
+    306,
+    120
+  ],
+  "duplicate": [
+    306,
+    100
+  ],
+  "duplicate_drag": [
+    308
+  ],
+  "set_patrol_point": [
+    306
+  ],
+  "clear_patrol_points": [
+    306,
+    304
+  ],
+  "set_parent": [
+    304
+  ],
+  "set_child": [
+    306,
+    304
+  ],
+  "toggle_lock": [
+    108
+  ],
+  "speed_modifier": [
+    304
+  ],
+  "slow_modifier": [
+    306
+  ],
+  "undo": [
+    306,
+    122
+  ],
+  "redo": [
+    306,
+    121
+  ],
+  "play_mode": [],
+  "initialtive_tracker": [],
+  "click_fx_window": [],
+  "audio_window": [],
+  "fow_window": [],
+  "cutout_window": []
+}
