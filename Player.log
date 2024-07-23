@@ -11,18 +11,18 @@ Direct3D:
     VRAM:     7989 MB
     Driver:   32.0.15.5612
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.178 seconds
+- Completed reload, in  0.175 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 6.055100 ms
-UnloadTime: 2.831600 ms
+UnloadTime: 5.801500 ms
+UnloadTime: 2.724300 ms
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
 Logger initialised - Can be toggled with (F1)
 Unloading 89 unused Assets to reduce memory usage. Loaded Objects now: 13078.
-Total: 17.547000 ms (FindLiveObjects: 0.626000 ms CreateObjectMapping: 0.163500 ms MarkObjects: 16.667400 ms  DeleteObjects: 0.089800 ms)
+Total: 17.501600 ms (FindLiveObjects: 0.692100 ms CreateObjectMapping: 0.158800 ms MarkObjects: 16.565000 ms  DeleteObjects: 0.085400 ms)
 
-Exception: GET T - {"errors":[{"challenge_metadata":null,"code":1,"code_name":"Unauthorized","detail":"The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.","id":"e33e9ccd-ca80-55da-abfa-441acd42e670","status":"401","title":"Unauthorized"}]}
+Exception: GET T - {"errors":[{"challenge_metadata":null,"code":1,"code_name":"Unauthorized","detail":"The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.","id":"3fbc07a4-98e9-5410-a2c5-1ce41028501f","status":"401","title":"Unauthorized"}]}
   at RpgEngine.HttpClientExtensions.GetAsync[T] (System.Net.Http.HttpClient httpClient, System.String url, System.Net.Http.Headers.AuthenticationHeaderValue authenticationHeader, System.Threading.CancellationToken cancellationToken) [0x0014e] in <46df2c74f8cf4cbd9448e86f01ec7fd1>:0 
   at RpgEngine.Patreon.PatreonAuth.GetIdentityAsync (System.Threading.CancellationToken cancellationToken) [0x000eb] in <46df2c74f8cf4cbd9448e86f01ec7fd1>:0 
   at RpgEngine.Patreon.PatreonClient.CheckIsPatreonSupporterAsync () [0x00124] in <46df2c74f8cf4cbd9448e86f01ec7fd1>:0 
@@ -70,201 +70,18 @@ UnityEngine.UnitySynchronizationContext:ExecuteTasks()
 
 Starting API
 Host: http://localhost:8001/TheRpgEngine/swagger/index.html
-Book Loaded: 1.069s
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.603100 ms
-Unloading 663 unused Assets to reduce memory usage. Loaded Objects now: 56780.
-Total: 30.897400 ms (FindLiveObjects: 4.923300 ms CreateObjectMapping: 1.554700 ms MarkObjects: 23.519100 ms  DeleteObjects: 0.899800 ms)
-
-"" mesh must have at least three distinct vertices to be a valid collision mesh.
-"" mesh must have at least three distinct vertices to be a valid collision mesh.
-[Physics.PhysX] QuickHullConvexHullLib::findSimplex: Simplex input points appers to be colinear.
-Failed to create Convex Mesh from source mesh "SM_Prop_Quiver_01". An internal unspecified error has occured that could mean the Quickhull algorithm found the input mesh topologically challenging. 
-Book Loaded: 3.712s
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Horse Poly Art/CG/Pelvis/Spine/Spine1/Spine2/Back Holder/Blank Invisible Locator/Custom Animation/CustomCharacter/Root/Hips/Spine_01/Spine_02"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Horse Poly Art/CG/Pelvis/Spine/Spine1/Spine2/Back Holder/Blank Invisible Locator/Custom Animation/CustomCharacter/Root/Hips"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Horse Poly Art/CG/Pelvis/Spine/Spine1/Spine2/Back Holder/Blank Invisible Locator/Custom Animation/CustomCharacter"
-[Physics.PhysX] QuickHullConvexHullLib::findSimplex: Simplex input points appers to be colinear.
-Failed to create Convex Mesh from source mesh "SM_Prop_Quiver_01". An internal unspecified error has occured that could mean the Quickhull algorithm found the input mesh topologically challenging. 
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Glass_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Glass_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Glass_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Glass_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Custom Animation/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Glass_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Glass_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Glass_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Stone_Cube"
-BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "DontDestroy Terrain/PropManager/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Blank Invisible Locator/Glass_Cube"
-No Skybox of name  found, using default: FS000_Day_01_Sunless
-Book Loaded: 3.507s
-Shader 'SyntyStudios/EnvTriplanar': fallback shader 'wiiu' not found
+Book Loaded: 0.871s
 Successfully Shutdown
 Setting up 4 worker threads for Enlighten.
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 209 frames, [8.0 KB-16.0 KB]: 3 frames, [16.0 KB-32.0 KB]: 34763 frames, [32.0 KB-64.0 KB]: 112942 frames, [64.0 KB-128.0 KB]: 4491 frames, [128.0 KB-256.0 KB]: 984 frames, [256.0 KB-0.5 MB]: 57964 frames, [0.5 MB-1.0 MB]: 248 frames, [2.0 MB-4.0 MB]: 3 frames, [4.0 MB-8.0 MB]: 1 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 65 frames, [16.0 KB-32.0 KB]: 423 frames, [32.0 KB-64.0 KB]: 250 frames, [64.0 KB-128.0 KB]: 1 frames, [128.0 KB-256.0 KB]: 4 frames, [2.0 MB-4.0 MB]: 1 frames
       Initial Block Size 4.0 MB
-      Current Block Size 7.5 MB
-      Peak Allocated Bytes 7.5 MB
-      Overflow Count 3
+      Current Block Size 4.0 MB
+      Peak Allocated Bytes 2.3 MB
+      Overflow Count 0
     [ALLOC_TEMP_Loading.AsyncRead]
       Initial Block Size 64.0 KB
       Current Block Size 64.0 KB
@@ -273,8 +90,8 @@ Memory Statistics:
     [ALLOC_TEMP_Loading.PreloadManager]
       Initial Block Size 256.0 KB
       Current Block Size 0.5 MB
-      Peak Allocated Bytes 510.3 KB
-      Overflow Count 91
+      Peak Allocated Bytes 509.4 KB
+      Overflow Count 30
     [ALLOC_TEMP_Background Job.Worker 8]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -282,13 +99,13 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 6]
       Initial Block Size 256.0 KB
-      Current Block Size 412.0 KB
-      Peak Allocated Bytes 311.2 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 247.6 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 0]
       Initial Block Size 256.0 KB
-      Current Block Size 412.0 KB
-      Peak Allocated Bytes 311.2 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 66.7 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 10]
       Initial Block Size 32.0 KB
@@ -302,8 +119,8 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 5]
       Initial Block Size 256.0 KB
-      Current Block Size 412.0 KB
-      Peak Allocated Bytes 311.2 KB
+      Current Block Size 280.0 KB
+      Peak Allocated Bytes 277.9 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 14]
       Initial Block Size 32.0 KB
@@ -317,23 +134,23 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 4]
       Initial Block Size 256.0 KB
-      Current Block Size 412.0 KB
-      Peak Allocated Bytes 311.2 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 247.6 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 14]
       Initial Block Size 256.0 KB
-      Current Block Size 412.0 KB
-      Peak Allocated Bytes 311.2 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 247.6 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 3]
       Initial Block Size 256.0 KB
-      Current Block Size 412.0 KB
-      Peak Allocated Bytes 311.2 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 247.6 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 13]
       Initial Block Size 256.0 KB
-      Current Block Size 412.0 KB
-      Peak Allocated Bytes 311.2 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 247.6 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 12]
       Initial Block Size 32.0 KB
@@ -353,7 +170,7 @@ Memory Statistics:
     [ALLOC_TEMP_Background Job.Worker 1]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
+      Peak Allocated Bytes 0.9 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 2]
       Initial Block Size 32.0 KB
@@ -367,13 +184,13 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_UnityGfxDeviceWorker]
       Initial Block Size 256.0 KB
-      Current Block Size 280.0 KB
-      Peak Allocated Bytes 277.9 KB
-      Overflow Count 3
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 28.6 KB
+      Overflow Count 2
     [ALLOC_TEMP_NavMesh Builder.Worker 0]
       Initial Block Size 64.0 KB
       Current Block Size 64.0 KB
-      Peak Allocated Bytes 16.0 KB
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 5]
       Initial Block Size 32.0 KB
@@ -382,8 +199,8 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 9]
       Initial Block Size 256.0 KB
-      Current Block Size 412.0 KB
-      Peak Allocated Bytes 311.2 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 247.6 KB
       Overflow Count 0
     [ALLOC_TEMP_AssetGarbageCollectorHelper] x 15
       Initial Block Size 64.0 KB
@@ -397,23 +214,23 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 8]
       Initial Block Size 256.0 KB
-      Current Block Size 412.0 KB
-      Peak Allocated Bytes 311.2 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 247.6 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 7]
       Initial Block Size 256.0 KB
-      Current Block Size 412.0 KB
-      Peak Allocated Bytes 311.2 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 247.6 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 1]
       Initial Block Size 256.0 KB
-      Current Block Size 412.0 KB
-      Peak Allocated Bytes 311.2 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 247.6 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 2]
       Initial Block Size 256.0 KB
-      Current Block Size 412.0 KB
-      Peak Allocated Bytes 311.2 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 247.6 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 3]
       Initial Block Size 32.0 KB
@@ -427,23 +244,23 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 10]
       Initial Block Size 256.0 KB
-      Current Block Size 416.0 KB
-      Peak Allocated Bytes 311.2 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 247.6 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 0]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 0.9 KB
+      Peak Allocated Bytes 54 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 11]
       Initial Block Size 256.0 KB
-      Current Block Size 412.0 KB
-      Peak Allocated Bytes 311.2 KB
+      Current Block Size 280.0 KB
+      Peak Allocated Bytes 277.9 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 12]
       Initial Block Size 256.0 KB
-      Current Block Size 412.0 KB
-      Peak Allocated Bytes 311.2 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 247.6 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 4]
       Initial Block Size 32.0 KB
@@ -456,32 +273,32 @@ Memory Statistics:
       Peak Allocated Bytes 54 B
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 29235
+  Peak main deferred allocation count 2050
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 1 Subsections = 1024 buckets. Failed count: 39623714
-        32B: 2 Subsections = 1024 buckets. Failed count: 19207777
-        48B: 14 Subsections = 4778 buckets. Failed count: 49152803
-        64B: 41 Subsections = 10496 buckets. Failed count: 3508487
-        80B: 164 Subsections = 33587 buckets. Failed count: 1930844
-        96B: 28 Subsections = 4778 buckets. Failed count: 2135205
-        112B: 5 Subsections = 731 buckets. Failed count: 759360
-        128B: 1 Subsections = 128 buckets. Failed count: 2610147
+        16B: 1 Subsections = 1024 buckets. Failed count: 297673
+        32B: 2 Subsections = 1024 buckets. Failed count: 125554
+        48B: 14 Subsections = 4778 buckets. Failed count: 58822
+        64B: 41 Subsections = 10496 buckets. Failed count: 530112
+        80B: 164 Subsections = 33587 buckets. Failed count: 51283
+        96B: 28 Subsections = 4778 buckets. Failed count: 26425
+        112B: 5 Subsections = 731 buckets. Failed count: 29475
+        128B: 1 Subsections = 128 buckets. Failed count: 39257
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [32.0 MB-64.0 MB]: 53494 frames, [64.0 MB-128.0 MB]: 10110 frames, [128.0 MB-256.0 MB]: 148004 frames
+      Peak usage frame count: [32.0 MB-64.0 MB]: 744 frames
       Requested Block Size 16.0 MB
-      Peak Block count 14
-      Peak Allocated memory 183.2 MB
-      Peak Large allocation bytes 64.0 MB
+      Peak Block count 4
+      Peak Allocated memory 52.7 MB
+      Peak Large allocation bytes 0 B
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [32.0 MB-64.0 MB]: 42 frames, [64.0 MB-128.0 MB]: 115228 frames, [128.0 MB-256.0 MB]: 96338 frames
+      Peak usage frame count: [32.0 MB-64.0 MB]: 42 frames, [64.0 MB-128.0 MB]: 702 frames
       Requested Block Size 16.0 MB
-      Peak Block count 16
-      Peak Allocated memory 251.8 MB
-      Peak Large allocation bytes 62.4 MB
+      Peak Block count 3
+      Peak Allocated memory 78.5 MB
+      Peak Large allocation bytes 51.7 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
   Used Block Count 1
@@ -494,13 +311,13 @@ Memory Statistics:
   Overflow Count (full) 0
 [ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
   Initial Block Size 2.0 MB
-  Used Block Count 17
-  Overflow Count (too large) 3
+  Used Block Count 4
+  Overflow Count (too large) 0
   Overflow Count (full) 0
 [ALLOC_TEMP_JOB_ASYNC (Background)]
   Initial Block Size 1.0 MB
   Used Block Count 4
-  Overflow Count (too large) 3
+  Overflow Count (too large) 2
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
   Peak main deferred allocation count 108
@@ -509,52 +326,52 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 1 Subsections = 1024 buckets. Failed count: 39623714
-        32B: 2 Subsections = 1024 buckets. Failed count: 19207777
-        48B: 14 Subsections = 4778 buckets. Failed count: 49152803
-        64B: 41 Subsections = 10496 buckets. Failed count: 3508487
-        80B: 164 Subsections = 33587 buckets. Failed count: 1930844
-        96B: 28 Subsections = 4778 buckets. Failed count: 2135205
-        112B: 5 Subsections = 731 buckets. Failed count: 759360
-        128B: 1 Subsections = 128 buckets. Failed count: 2610147
+        16B: 1 Subsections = 1024 buckets. Failed count: 297673
+        32B: 2 Subsections = 1024 buckets. Failed count: 125554
+        48B: 14 Subsections = 4778 buckets. Failed count: 58822
+        64B: 41 Subsections = 10496 buckets. Failed count: 530112
+        80B: 164 Subsections = 33587 buckets. Failed count: 51283
+        96B: 28 Subsections = 4778 buckets. Failed count: 26425
+        112B: 5 Subsections = 731 buckets. Failed count: 29475
+        128B: 1 Subsections = 128 buckets. Failed count: 39257
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 78 frames, [8.0 MB-16.0 MB]: 53416 frames, [256.0 MB-0.50 GB]: 52441 frames, [0.50 GB-1.00 GB]: 105672 frames
+      Peak usage frame count: [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 74 frames, [8.0 MB-16.0 MB]: 669 frames
       Requested Block Size 16.0 MB
-      Peak Block count 43
-      Peak Allocated memory 0.86 GB
-      Peak Large allocation bytes 232.0 MB
+      Peak Block count 1
+      Peak Allocated memory 10.6 MB
+      Peak Large allocation bytes 0 B
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [256.0 MB-0.50 GB]: 2 frames, [0.50 GB-1.00 GB]: 211606 frames
+      Peak usage frame count: [256.0 MB-0.50 GB]: 3 frames, [0.50 GB-1.00 GB]: 741 frames
       Requested Block Size 16.0 MB
-      Peak Block count 21
-      Peak Allocated memory 0.65 GB
+      Peak Block count 14
+      Peak Allocated memory 0.53 GB
       Peak Large allocation bytes 333.4 MB
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 161484
+  Peak main deferred allocation count 153178
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 1 Subsections = 1024 buckets. Failed count: 39623714
-        32B: 2 Subsections = 1024 buckets. Failed count: 19207777
-        48B: 14 Subsections = 4778 buckets. Failed count: 49152803
-        64B: 41 Subsections = 10496 buckets. Failed count: 3508487
-        80B: 164 Subsections = 33587 buckets. Failed count: 1930844
-        96B: 28 Subsections = 4778 buckets. Failed count: 2135205
-        112B: 5 Subsections = 731 buckets. Failed count: 759360
-        128B: 1 Subsections = 128 buckets. Failed count: 2610147
+        16B: 1 Subsections = 1024 buckets. Failed count: 297673
+        32B: 2 Subsections = 1024 buckets. Failed count: 125554
+        48B: 14 Subsections = 4778 buckets. Failed count: 58822
+        64B: 41 Subsections = 10496 buckets. Failed count: 530112
+        80B: 164 Subsections = 33587 buckets. Failed count: 51283
+        96B: 28 Subsections = 4778 buckets. Failed count: 26425
+        112B: 5 Subsections = 731 buckets. Failed count: 29475
+        128B: 1 Subsections = 128 buckets. Failed count: 39257
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [64.0 MB-128.0 MB]: 211608 frames
+      Peak usage frame count: [64.0 MB-128.0 MB]: 744 frames
       Requested Block Size 4.0 MB
-      Peak Block count 23
-      Peak Allocated memory 96.9 MB
+      Peak Block count 20
+      Peak Allocated memory 86.7 MB
       Peak Large allocation bytes 35.8 MB
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [128.0 MB-256.0 MB]: 53458 frames, [256.0 MB-0.50 GB]: 158150 frames
+      Peak usage frame count: [128.0 MB-256.0 MB]: 744 frames
       Requested Block Size 4.0 MB
-      Peak Block count 52
-      Peak Allocated memory 313.5 MB
+      Peak Block count 33
+      Peak Allocated memory 240.2 MB
       Peak Large allocation bytes 140.8 MB
 [ALLOC_TYPETREE] Dual Thread Allocator
   Peak main deferred allocation count 0
@@ -563,23 +380,23 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 1 Subsections = 1024 buckets. Failed count: 39623714
-        32B: 2 Subsections = 1024 buckets. Failed count: 19207777
-        48B: 14 Subsections = 4778 buckets. Failed count: 49152803
-        64B: 41 Subsections = 10496 buckets. Failed count: 3508487
-        80B: 164 Subsections = 33587 buckets. Failed count: 1930844
-        96B: 28 Subsections = 4778 buckets. Failed count: 2135205
-        112B: 5 Subsections = 731 buckets. Failed count: 759360
-        128B: 1 Subsections = 128 buckets. Failed count: 2610147
+        16B: 1 Subsections = 1024 buckets. Failed count: 297673
+        32B: 2 Subsections = 1024 buckets. Failed count: 125554
+        48B: 14 Subsections = 4778 buckets. Failed count: 58822
+        64B: 41 Subsections = 10496 buckets. Failed count: 530112
+        80B: 164 Subsections = 33587 buckets. Failed count: 51283
+        96B: 28 Subsections = 4778 buckets. Failed count: 26425
+        112B: 5 Subsections = 731 buckets. Failed count: 29475
+        128B: 1 Subsections = 128 buckets. Failed count: 39257
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [8.0 KB-16.0 KB]: 211608 frames
+      Peak usage frame count: [8.0 KB-16.0 KB]: 744 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 15.1 KB
+      Peak Allocated memory 8.8 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [8.0 KB-16.0 KB]: 53437 frames, [16.0 KB-32.0 KB]: 158170 frames, [32.0 KB-64.0 KB]: 1 frames
+      Peak usage frame count: [8.0 KB-16.0 KB]: 744 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 32.4 KB
+      Peak Allocated memory 11.9 KB
       Peak Large allocation bytes 0 B

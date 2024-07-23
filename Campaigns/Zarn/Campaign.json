@@ -1,7 +1,8 @@
 {
   "name": "Zarn",
-  "defaultMapName": "Default",
+  "defaultMapName": "Desert Camp",
   "mapOrder": [
+    "Desert Camp",
     "Default",
     "Arkas Stardust Ward ",
     "Arkas",
