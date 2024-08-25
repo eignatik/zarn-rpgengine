@@ -1,13 +1,22 @@
 {
   "name": "Zarn",
-  "defaultMapName": "Desert Camp",
+  "defaultMapName": "Arkas The Lower City",
   "mapOrder": [
+    "Arkas The Lower City",
     "Desert Camp",
     "Default",
     "Arkas Stardust Ward ",
     "Arkas",
-    "Arkas The Lower City",
     "Arkas Port",
-    "Stardust Restricted Library"
+    "Stardust Restricted Library",
+    "Academy Mage",
+    "Arkas - Art Academy",
+    "Encounter Bandit Camp",
+    "Long Road Encounter",
+    "Medieval Fantasy City",
+    "Playground",
+    "Rolling hills",
+    "Test Map",
+    "The city of dwarves"
   ]
 }
