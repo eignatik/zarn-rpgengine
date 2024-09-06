@@ -1,7 +1,8 @@
 {
   "name": "Zarn",
-  "defaultMapName": "Arkas The Lower City",
+  "defaultMapName": "Lobby1",
   "mapOrder": [
+    "Lobby1",
     "Arkas The Lower City",
     "Arkas",
     "Desert Camp",
