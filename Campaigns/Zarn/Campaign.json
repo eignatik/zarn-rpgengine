@@ -1,7 +1,8 @@
 {
   "name": "Zarn",
-  "defaultMapName": "Lobby1",
+  "defaultMapName": "Lobby Party 1",
   "mapOrder": [
+    "Lobby Party 1",
     "Lobby1",
     "Arkas",
     "Arkas The Lower City",
@@ -19,6 +20,10 @@
     "Rolling hills",
     "Test Map",
     "The city of dwarves",
-    "Arkas Temple of Ten Sanctuary"
+    "Arkas Temple of Ten Sanctuary",
+    "Arkas Cliff Mansion Cellar",
+    "Arkas Cliff Mansion",
+    "Eastmark Vale",
+    "Hilltop Tower Ruin"
   ]
 }
