@@ -1,11 +1,11 @@
 {
   "name": "Zarn",
-  "defaultMapName": "Lobby Party 1",
+  "defaultMapName": "Lobby1",
   "mapOrder": [
-    "Lobby Party 1",
     "Lobby1",
-    "Arkas",
+    "Lobby Party 1",
     "Arkas The Lower City",
+    "Arkas",
     "Desert Camp",
     "Default",
     "Arkas Stardust Ward ",
@@ -24,6 +24,7 @@
     "Arkas Cliff Mansion Cellar",
     "Arkas Cliff Mansion",
     "Eastmark Vale",
-    "Hilltop Tower Ruin"
+    "Hilltop Tower Ruin",
+    "Building"
   ]
 }
